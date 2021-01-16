@@ -1,0 +1,195 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://objects/plot.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/time_label.gd" type="Script" id=2]
+[ext_resource path="res://scripts/main.gd" type="Script" id=3]
+[ext_resource path="res://scripts/seeds.gd" type="Script" id=4]
+[ext_resource path="res://grass.png" type="Texture" id=5]
+
+[node name="main" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="grass" type="Sprite" parent="."]
+texture = ExtResource( 5 )
+centered = false
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="farm_plots" type="Node2D" parent="."]
+
+[node name="plot9" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 128, 64 )
+
+[node name="plot10" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 160, 64 )
+
+[node name="plot11" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 192, 64 )
+
+[node name="plot12" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 224, 64 )
+
+[node name="plot13" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 256, 64 )
+
+[node name="plot14" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 128, 96 )
+
+[node name="plot15" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+
+[node name="plot16" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 192, 96 )
+
+[node name="plot17" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 224, 96 )
+
+[node name="plot18" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 256, 96 )
+
+[node name="plot19" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 320, 64 )
+
+[node name="plot20" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 352, 64 )
+
+[node name="plot21" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 384, 64 )
+
+[node name="plot22" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 416, 64 )
+
+[node name="plot23" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 448, 64 )
+
+[node name="plot24" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 320, 96 )
+
+[node name="plot25" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 352, 96 )
+
+[node name="plot26" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 384, 96 )
+
+[node name="plot27" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 416, 96 )
+
+[node name="plot28" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 448, 96 )
+
+[node name="plot29" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 128, 192 )
+
+[node name="plot30" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 160, 192 )
+
+[node name="plot31" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 192, 192 )
+
+[node name="plot32" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 224, 192 )
+
+[node name="plot33" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 256, 192 )
+
+[node name="plot34" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 128, 224 )
+
+[node name="plot35" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 160, 224 )
+
+[node name="plot36" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 192, 224 )
+
+[node name="plot37" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 224, 224 )
+
+[node name="plot38" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 256, 224 )
+
+[node name="plot39" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 320, 192 )
+
+[node name="plot40" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 352, 192 )
+
+[node name="plot41" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 384, 192 )
+
+[node name="plot42" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 416, 192 )
+
+[node name="plot43" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 448, 192 )
+
+[node name="plot44" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 320, 224 )
+
+[node name="plot45" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 352, 224 )
+
+[node name="plot46" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 384, 224 )
+
+[node name="plot47" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 416, 224 )
+
+[node name="plot48" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 448, 224 )
+
+[node name="plot" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 96, 64 )
+
+[node name="plot2" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 96, 96 )
+
+[node name="plot3" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 288, 64 )
+
+[node name="plot4" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 288, 96 )
+
+[node name="plot5" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 96, 192 )
+
+[node name="plot6" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 96, 224 )
+
+[node name="plot7" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 288, 192 )
+
+[node name="plot8" parent="farm_plots" instance=ExtResource( 1 )]
+position = Vector2( 288, 224 )
+
+[node name="time_label" type="Label" parent="."]
+margin_left = 441.891
+margin_top = 2.6727
+margin_right = 512.891
+margin_bottom = 34.6727
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="seeds" type="OptionButton" parent="."]
+margin_right = 96.0
+margin_bottom = 32.0
+text = "rose"
+expand_icon = true
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnsave" type="Button" parent="."]
+margin_left = 424.0
+margin_top = 272.0
+margin_right = 505.0
+margin_bottom = 295.0
+text = "Save & Exit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="item_selected" from="seeds" to="seeds" method="_on_seeds_item_selected"]
+[connection signal="pressed" from="btnsave" to="." method="_on_btnsave_pressed"]

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://objects/plant.tscn" type="PackedScene" id=1]
+[ext_resource path="res://farmplot.png" type="Texture" id=2]
+[ext_resource path="res://scripts/plot.gd" type="Script" id=4]
+
+[node name="plot" type="Sprite" groups=[
+"plots",
+]]
+texture = ExtResource( 2 )
+centered = false
+script = ExtResource( 4 )
+
+[node name="plant" parent="." instance=ExtResource( 1 )]
+visible = false
+position = Vector2( 16.0362, 15.1498 )
+animation = "tulip"
